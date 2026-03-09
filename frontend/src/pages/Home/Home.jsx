@@ -42,9 +42,9 @@ className="min-h-screen flex flex-col md:flex-row items-center justify-center ga
 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
 
 <img
-className="relative mt-10 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl"
-src={`https://sagar-korde-portfolio.onrender.com/uploads/${homeData?.image}`}
-alt="Sagar Korde"
+  className="relative mt-10 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl"
+  src={`${IMAGE_BASE_URL}${homeData?.image}`}
+  alt="Sagar Korde"
 />
 
 </motion.div>
