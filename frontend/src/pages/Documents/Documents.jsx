@@ -62,7 +62,7 @@ const Documents = () => {
               </p>
 
               <a
-                href={`http://localhost:2000/uploads/${item.image}`}
+                href={`https://sagar-korde-portfolio.onrender.com/uploads/${item.image}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block mt-3 text-blue-500 hover:text-blue-700 underline text-sm"
