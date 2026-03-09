@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   const { projects } = useContext(storeContext);
-  const IMAGE_BASE_URL = "http://localhost:2000/uploads/";
+  const IMAGE_BASE_URL = "https://sagar-korde-portfolio.onrender.com/";
 
   return (
     <motion.section
