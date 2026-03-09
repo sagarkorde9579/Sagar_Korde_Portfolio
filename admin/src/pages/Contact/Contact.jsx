@@ -20,7 +20,7 @@ const handleSubmit=async(e)=>{
   e.preventDefault();
 
   try{
-    const res = await fetch("http://localhost:2000/api/contact/updateContact",{
+    const res = await fetch("https://sagar-korde-portfolio.onrender.com/api/contact/updateContact",{
       method:"POST",
       headers:{
         "Content-Type":"application/json"
