@@ -5,7 +5,7 @@ export const storeContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
 
-  const url = "http://localhost:2000";
+  const url = "https://sagar-korde-portfolio.onrender.com";
 
  
   const [homeData, setHomeData] = useState(null);
