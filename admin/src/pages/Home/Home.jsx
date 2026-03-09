@@ -37,7 +37,7 @@ const Home = () => {
   formData.append("image", form.image);
 }
   try{
-   const res = await fetch("http://localhost:2000/api/home/update", {
+   const res = await fetch("https://sagar-korde-portfolio.onrender.com/api/home/update", {
   method: "POST",
   body: formData
 });
