@@ -48,7 +48,7 @@ const About = () => {
             >
               <div className="w-full h-full rounded-full border-[6px] border-white overflow-hidden bg-white">
                 <img
-                  src={`https://sagar-korde-portfolio-frontend.onrender.com/uploads/${aboutData[aboutData.length - 1]?.image}`}
+                  src={`https://sagar-korde-portfolio.onrender.com/uploads/${aboutData[aboutData.length - 1]?.image}`}
                   alt="Sagar Korde"
                   className="w-full h-full object-cover"
                 />
