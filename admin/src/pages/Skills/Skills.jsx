@@ -39,7 +39,7 @@ const handleSubmit=async(e)=>{
   }
 
   try{
-  const res=await fetch("http://localhost:2000/api/skill/saveSkill",{
+  const res=await fetch("https://sagar-korde-portfolio.onrender.com/api/skill/saveSkill",{
     method:"POST",
     body:formData,
   })
