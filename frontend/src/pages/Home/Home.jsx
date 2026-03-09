@@ -8,7 +8,7 @@ import { storeContext } from "../../components/StoreContext/StoreContext";
 const Home = () => {
 
   const { skills, documents, projects, homeData } = useContext(storeContext);
-  const IMAGE_BASE_URL = "http://localhost:2000/uploads/";
+  const IMAGE_BASE_URL = "https://sagar-korde-portfolio.onrender.com/uploads/";
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
