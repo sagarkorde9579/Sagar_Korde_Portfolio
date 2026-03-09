@@ -30,7 +30,7 @@ const Resume = () => {
     }
   
     try{
-    const res=await fetch("http://localhost:2000/api/resume/saveResume",{
+    const res=await fetch("https://sagar-korde-portfolio.onrender.com/api/resume/saveResume",{
       method:"POST",
       body:formData,
     })
