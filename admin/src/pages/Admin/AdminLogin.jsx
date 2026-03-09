@@ -22,7 +22,7 @@ const AdminLogin = () => {
     
     try {
       const res = await axios.post(
-        "http://localhost:2000/api/admin/login",
+        "https://sagar-korde-portfolio.onrender.com/api/admin/login",
         formData
       );
        if (res.data.success) {
