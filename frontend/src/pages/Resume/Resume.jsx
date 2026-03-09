@@ -41,7 +41,7 @@ const Resume = () => {
 
       {resume && resume.map((item, index) => {
 
-        const fileUrl = `http://localhost:2000/uploads/${item.image}`;
+        const fileUrl = `https://sagar-korde-portfolio.onrender.com/uploads/${item.image}`;
 
         return (
           <motion.div
