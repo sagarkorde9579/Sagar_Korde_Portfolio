@@ -42,7 +42,7 @@ const handleSubmit=async(e)=>{
   }
 
   try{
-  const res=await fetch("http://localhost:2000/api/project/saveProject",{
+  const res=await fetch("https://sagar-korde-portfolio.onrender.com/api/project/saveProject",{
     method:"POST",
     body:formData,
   })
