@@ -43,7 +43,7 @@ className="min-h-screen flex flex-col md:flex-row items-center justify-center ga
 
 <img
 className="relative mt-10 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl"
-src={`http://localhost:2000/uploads/${homeData?.image}`}
+src={`https://sagar-korde-portfolio.onrender.com/uploads/${homeData?.image}`}
 alt="Sagar Korde"
 />
 
