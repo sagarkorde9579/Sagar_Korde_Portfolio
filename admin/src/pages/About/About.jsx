@@ -44,7 +44,7 @@ const About = () => {
 
     try {
       const res = await fetch(
-        "http://localhost:2000/api/about/saveAbout",
+        "https://sagar-korde-portfolio.onrender.com/api/about/saveAbout",
         {
           method: "POST",
           body: formData, 
