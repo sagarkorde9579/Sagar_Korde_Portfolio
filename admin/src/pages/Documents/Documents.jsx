@@ -42,7 +42,7 @@ const Documents = () => {
     }
   
     try{
-    const res=await fetch("http://localhost:2000/api/document/saveDocuments",{
+    const res=await fetch("https://sagar-korde-portfolio.onrender.com/api/document/saveDocuments",{
       method:"POST",
       body:formData,
     })
