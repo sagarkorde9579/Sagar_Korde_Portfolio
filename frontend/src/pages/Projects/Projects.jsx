@@ -46,11 +46,11 @@ const Projects = () => {
 
 
                   <div className="w-full h-48 object-cover rounded-md bg-black p-2 flex items-center justify-center border border-slate-700 mb-4 group-hover:scale-110 transition-transform duration-500">
-                    <img
-                      className="w-full h-full object-cover rounded-md"
-                      src={`${IMAGE_BASE_URL}${d.image}`}
-                      alt={d.title}
-                    />
+                   <img
+  className="w-full h-full object-cover rounded-md"
+  src={`${IMAGE_BASE_URL}uploads/${d.image}`}
+  alt={d.title}
+/>
                   </div>
 
 
